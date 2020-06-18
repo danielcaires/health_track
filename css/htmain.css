@@ -1,0 +1,80 @@
+:root{
+	--main-color: rgb(0,100,80);
+	--sec-color: rgb(50,205,153);
+}
+
+header{
+	background-color: var(--main-color);
+	color: white;
+	text-align: center;	
+}
+
+button{
+	background-color: var(--main-color);
+	color: white;
+	padding: 5px 10px;
+	font-size: large;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 3px 3px var(--sec-color);
+	outline: none;
+}
+
+button:hover{
+	background-color: var(--sec-color);
+	color: var(--main-color);
+	box-shadow: 3px 3px var(--main-color);
+}
+
+button:active{
+	box-shadow: 0 0;
+	transform: translate(3px, 3px);
+}
+
+input{
+	border-radius: 5px;
+}
+
+.menu-item{
+	text-align: left;
+
+}
+
+header a, .dashboard-main a{
+	color: white;
+}
+
+.menu-item:hover{
+	background-color: var(--sec-color);
+	color: var(--main-color);
+}
+
+.dashboard-item{
+	background-color: var(--main-color);
+	text-align: center;
+	margin: 5px 20px;
+	padding: 30px 5px;
+	border-radius: 10px;
+}
+
+.dashboard-item:hover{
+	background-color: var(--sec-color);
+	color: var(--main-color);
+}
+
+.dash-icon{
+	font-size: 70px;
+}
+
+.right-button{
+	float: right;
+}
+
+.thead{
+	background-color: var(--main-color);
+	color: white;
+}
+
+.main-info{
+	/*background-color: var(--sec-color);*/
+}
